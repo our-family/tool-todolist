@@ -1,4 +1,4 @@
-# todolist
+# todolist-develope
 
 ####使用方法说明：
 
@@ -8,4 +8,5 @@
 #####3.启动main.py脚本，执行命令如下
     python main.py
 
+此分支为开发分支
 
