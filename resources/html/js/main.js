@@ -73,7 +73,7 @@ function load(){
                                  + "<h4 class='panel-title'>"
                                  + "<input type='checkbox' onchange='update(" + data[i].id+ ", " + (data[i].done?"\"todo\"":"\"done\"") + " )' " + (data[i].done?" checked='checked' />":"/>")
                                  + "<a role='button' data-toggle='collapse' data-parent='#accordion' href='#collapse" + data[i].id + "' >" +data[i].title+ "</a>"
-                                 + "<a href='javascript:;' class='todomod'>*</a>"
+                                 + "<a href='javascript:;' class='tododel'>+</a>"
                                  + "<a href='javascript:remove(" + data[i].id + ")' class='tododel'>-</a>"
                                  + "</h4>"
                                  + "<div id='collapse" + data[i].id + "' class='panel-collapse collapse' role='tabpanel'>"
