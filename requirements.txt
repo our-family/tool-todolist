@@ -1,0 +1,2 @@
+PyQt5 >= 5.11
+SQLAlchemy >= 1.2.12

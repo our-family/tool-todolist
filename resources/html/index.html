@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+		<title>ToDoList</title>
+		<link rel="stylesheet" href="css/bootstrap.min.css">
+		<link rel="stylesheet" href="css/main.css">
+	</head>
+	<body>
+		<header>
+			<section>
+				<form action="javascript:postaction()" id="form">
+					<label for="title">ToDoList</label>
+					<input type="text" id="title" name="title" placeholder="Add ToDo" required="required" autocomplete="off" />
+				</form>
+			</section>
+		</header>
+		<section>
+			<h2 onclick="save()">doing <span id="todocount"></span></h2>
+			<ol class="panel-group demo-box" id="todolist" role="tablist" aria-multiselectable="true">
+			</ol>
+			<h2>done <span id="donecount"></span></h2>
+			<ul id="donelist">
+			</ul>
+		</section>
+		<footer>
+		</footer>
+        <script type="text/javascript" src="js/jquery.min.js"></script>
+        <script type="text/javascript" src="js/bootstrap.min.js"></script>
+        <script type="text/javascript" src="js/qwebchannel.js"></script>
+        <script type="text/javascript" src="js/python.js"></script>
+        <script type="text/javascript" src="js/main.js"></script>
+	</body>
+</html>
